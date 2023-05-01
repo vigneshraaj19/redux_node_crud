@@ -15,6 +15,7 @@ router.get('/user',async (req,res) =>{
 });
 
 
+
 router.delete("/delete/:_id", async function (request, response) {
     const { _id } = request.params;
     console.log(_id,"wrhwior");
